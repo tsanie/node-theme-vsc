@@ -1,0 +1,22 @@
+{
+    "name": "node-them-light",
+    "displayName": "Node Them Light",
+    "description": "Node style theme of vsc",
+    "version": "0.0.1",
+    "publisher": "tsanie",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Node Theme Light",
+                "uiTheme": "vs",
+                "path": "./themes/light_plus.json"
+            }
+        ]
+    }
+}
